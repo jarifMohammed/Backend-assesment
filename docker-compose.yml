@@ -1,12 +1,5 @@
 version: "3.8"
 services:
-  
-  redis:
-    image: "redis:latest"
-    container_name: redis_cache
-    restart: always
-    ports:
-      - "6379:6379"
   app:
     image: node:18-alpine
     container_name: app
